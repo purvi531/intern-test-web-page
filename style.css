@@ -1,0 +1,45 @@
+.head-section img {
+	width: 450px;
+}
+
+@media only screen and (max-width: 767px) {
+	.head-section img {
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.head-section-left img {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.head-section-left img {
+		height: 350px;
+	}
+}
+
+.head-section-right img {
+	width: 100%;
+}
+
+.social-media-section {
+	padding: 20px 0px;
+}
+
+.tool-section img {
+	width: 80%;
+}
+
+@media only screen and (max-width: 767px) {
+	.tool-section img {
+		width: 100%;
+	}
+}
+
+.line-separater .p-1:not(:last-of-type):after {
+  content: "|";
+  color: red;
+  padding-left: .5rem !important
+}
